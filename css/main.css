@@ -5,8 +5,18 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  background-color:#3F94E7;
+}
+/*.wrapper {
+
+  width: 100%;*/
+
+
+}
 header {
  width: 100%;
+
 }
 main {
   width: 100%;
@@ -21,8 +31,15 @@ footer {
   display: flex;
   justify-content: center;
 }
+.margin {
+  margin: 2.5em 0;
+}
 
 /******END GENERAL*********/
 /********HEADER***********/
-
+.logo {
+  height: 35px;
+}
 /*******END HEADER*******/
+/********MAIN **********/
+    /*****FORM*********/
