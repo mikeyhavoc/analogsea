@@ -10,22 +10,27 @@
 </head>
 <body>
   <div class="wrapper">
-    <header class="center">
+    <header class="center margin">
       <img class="logo" src="img/logo.png" alt="AnalogSea logo">
     </header>
     <main class="center">
       <form action="/signup/" method="post">
-        <label for="email">Email</label>
+        <fieldset>
+          <legend>Sign up</legend>
+            <label for="email">Email</label>
+             <br>
+            <input type="text" name="email" id="email" placeholder="foo@bar.com" required>
+             <br>
+            <label for="password">Password</label>
+             <br>
+            <input type="password" name="password" id="password" placeholder="1234passw0rd" required>
+        </fieldset>
          <br>
-        <input type="text" name="email" id="email" placeholder="foo@bar.com" required>
-         <br>
-        <label for="password">Password</label>
-         <br>
-        <input type="password" name="password" id="password" placeholder="1234passw0rd" required>
-         <br>
+       <fieldset>
         <button type="submit">Sign up</button>
-         <br>
+          <br>
         <a href="/forgot-password/new">Forgot password?</a>
+       </fieldset>
       </form>
     </main>
     <footer class="center">
