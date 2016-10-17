@@ -35,7 +35,9 @@ footer {
 .margin {
   margin: 2.5em 0;
 }
-
+.width {
+  width: 100%;
+}
 /******END GENERAL*********/
 /********HEADER***********/
 .logo {
