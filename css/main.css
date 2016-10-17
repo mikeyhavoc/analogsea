@@ -1,4 +1,4 @@
-/*** LAYOUT ***/
+/********LAYOUT***********/
 html {
   box-sizing: border-box;
 }
@@ -6,7 +6,6 @@ html {
   box-sizing: inherit;
 }
 header {
-
  width: 100%;
 }
 main {
@@ -16,11 +15,14 @@ footer {
   width: 100%;
 }
 
-/*** END LAYOUT ***/
-/*** GENERAL ***/
+/******END LAYOUT********/
+/*******GENERAL**********/
 .center {
   display: flex;
   justify-content: center;
 }
 
-/*** END GENERAL ***/
+/******END GENERAL*********/
+/********HEADER***********/
+
+/*******END HEADER*******/
