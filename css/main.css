@@ -67,7 +67,13 @@ footer {
     legend {
       text-align: center;
     }
-
+    .sign-up {
+      font-size: 2.5em;
+      color: #727272;
+    }
+    label {
+     display: flex;
+    }
     input {
       width: 20em; /** larger screens **/
       padding: .938em; /**larger screens **/
