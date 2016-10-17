@@ -6,14 +6,11 @@ html {
   box-sizing: inherit;
 }
 header {
-  width: 100%;
-  text-align: center;
+
+ width: 100%;
 }
 main {
   width: 100%;
-}
-form {
-
 }
 footer {
   width: 100%;
@@ -21,6 +18,9 @@ footer {
 
 /*** END LAYOUT ***/
 /*** GENERAL ***/
-
+.center {
+  display: flex;
+  justify-content: center;
+}
 
 /*** END GENERAL ***/
