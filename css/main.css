@@ -38,6 +38,11 @@ footer {
 .width {
   width: 100%;
 }
+.border-rad {
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #c6c4c4;
+}
 /******END GENERAL*********/
 /********HEADER***********/
 .logo {
@@ -51,7 +56,7 @@ footer {
       flex-direction: column;
       align-items: center;
       background-color:#FFFFFF;
-      max-width: 25em;
+      max-width: 25em;  /** larger screens **/
       padding:2.5em 2.5em 1.5em;
 
     }
@@ -64,13 +69,13 @@ footer {
     }
 
     input {
-      width: 20em;
-      padding: .938em;
+      width: 20em; /** larger screens **/
+      padding: .938em; /**larger screens **/
     }
     .submit-btn {
-      width: 100%;
+      width: 20em; /** larger screens **/
       background-color: green;
       color: white;
       border: 1px solid black;
-      padding: .938em;
+      padding: .938em; /** larger screens **/
     }
