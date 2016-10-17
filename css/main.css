@@ -7,13 +7,14 @@ html {
 }
 body {
   background-color:#3F94E7;
+  font-family: 'Roboto', sans-serif;
 }
 /*.wrapper {
 
-  width: 100%;*/
+  width: 100%;
+}*/
 
 
-}
 header {
  width: 100%;
 
@@ -44,10 +45,13 @@ footer {
 /********MAIN **********/
     /*****FORM*********/
     form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       background-color:#FFFFFF;
       max-width: 400px;
       padding:2.5em 2.5em 1.5em;
-      
+
     }
     fieldset {
       border-style:none;
@@ -55,4 +59,10 @@ footer {
     }
     legend {
       text-align: center;
+    }
+    .submit-btn {
+      width: 100%;
+      background-color: purple;
+      color: white;
+      border: 1px solid black;
     }
