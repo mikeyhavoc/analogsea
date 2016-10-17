@@ -51,7 +51,7 @@ footer {
       flex-direction: column;
       align-items: center;
       background-color:#FFFFFF;
-      max-width: 400px;
+      max-width: 25em;
       padding:2.5em 2.5em 1.5em;
 
     }
@@ -62,9 +62,15 @@ footer {
     legend {
       text-align: center;
     }
+
+    input {
+      width: 20em;
+      padding: .938em;
+    }
     .submit-btn {
       width: 100%;
-      background-color: purple;
+      background-color: green;
       color: white;
       border: 1px solid black;
+      padding: .938em;
     }
